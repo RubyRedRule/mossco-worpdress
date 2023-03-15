@@ -1,0 +1,94 @@
+{
+    "$schema": "https://json.schemastore.org/theme-v1.json",
+    "version": 2,
+    "templateParts": [
+        {
+            "name": "header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "area": "footer"
+        }
+    ],
+    "settings": {
+        "spacing": {
+            "blockGap": null,
+            "customMargin": true,
+            "customPadding": true,
+            "units": [
+                "%",
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "color": {
+            "palette": [
+              {
+                "slug":"Mossco-teal-dark",
+                "color": "#3f7078",
+                "name": "Dark Teal"
+              },
+              {
+                "slug":"primary-NORMAL",
+                "color": "#60AAA9",
+                "name": "Teal PRIMARY"
+              },
+              {
+                "slug":"Mossco-teal-light",
+                "color": "#a3cdcf",
+                "name": "Light Teal"
+              },
+              {
+                "slug":"Mossco-teal-faint",
+                "color": "#bedbd9",
+                "name": "Faint Teal"
+              },
+              {
+                "slug":"Mossco-grey-background",
+                "color": "#212121",
+                "name": "Grey BACKGROUND"
+              },
+              {
+                "slug":"Mossco-grey-dark",
+                "color": "#3e3f44",
+                "name": "Dark Grey"
+              },
+              {
+                "slug":"Mossco-grey-medium",
+                "color": "#85878b",
+                "name": "Medium Grey"
+              },
+              {
+                "slug":"Mossco-grey-semi",
+                "color": " #c3c3c3",
+                "name": "Semi Grey"
+              },
+              {
+                "slug":"text-gray-200",
+                "color": " #E5E7EB",
+                "name": "TEXT colour"
+              }
+            ]
+        },
+
+        "typography": {
+            "dropCap": false,
+            "customLineHeight": true
+        },
+        "border": {
+            "customColor": true,
+            "customRadius": true,
+            "customStyle": true,
+            "customWidth": true
+        }
+    },
+    "styles": {
+        "spacing": {
+            "blockGap": "0"
+        }
+    }
+}

@@ -1,0 +1,150 @@
+/*
+Theme Name: Cwicly Theme
+Text Domain: cwicly
+Version: 1.0.3
+Requires at least: 5.8
+Requires PHP: 7.0
+Tested up to: 5.9
+Description: The Official Theme for the Ultimate Gutenberg Toolkit.
+Author: Cwicly
+Author URI: https://cwicly.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks, accessibility-ready
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+*/
+
+body {
+    position: relative;
+}
+
+/*
+* Comment
+*/
+.cc-comments h3#comments {
+    margin-bottom: 25px;
+}
+
+.cc-comments .comment-user-meta {
+    display: block;
+    padding: 0 0 0 100px;
+    position: relative;
+}
+
+.cc-comments img.avatar.avatar-80.photo {
+    float: left;
+    margin: 0 20px 0 0;
+    vertical-align: top;
+    border-radius: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 80px;
+}
+
+.cc-comments h4.comment-user {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (min-width: 780px) {
+    .cc-comments .comment-meta {
+        float: right;
+        position: absolute;
+        top: 5px;
+        right: 0px;
+    }
+}
+
+@media (max-width: 780px) {
+    .cc-comments .comment-meta {
+        margin-top: 10px;
+    }
+}
+
+.cc-comments .date {
+    font-style: italic;
+}
+
+.cc-comments .comment-body {
+    padding: 30px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.cc-comments > ul > li:first-child > .comment-body {
+    padding-top: 0;
+}
+
+.cc-comments .comment-head {
+    margin-bottom: 15px;
+}
+
+.cc-comments #respond {
+    margin-top: 70px;
+}
+
+.cc-comments h3#reply-title {
+    margin-bottom: 10px;
+}
+
+.cc-comments .comment-notes {
+    margin-bottom: 20px;
+}
+
+.cc-comments textarea,
+.cc-comments input[type="text"] {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    border: none;
+    border: 1px solid #ebebeb;
+    background: #fafafa;
+    padding: 10px 20px;
+    transition-duration: .4s;
+}
+
+.cc-comments textarea:focus,
+.cc-comments input[type="text"]:focus {
+    outline: none;
+    background: #f3f3f3;
+}
+
+.cc-comments .comment-form .text-field > div {
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+}
+
+.cc-comments .comment-form .text-field {
+    margin: 0 -10px;
+}
+
+.cc-comments input#wp-comment-cookies-consent {
+    margin-right: 10px;
+}
+
+.cc-comments .comment-form label {
+    font-weight: bold;
+}
+
+.cc-comments .comment-form-cookies-consent {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.cc-comments .children {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.wp-block-post-comments {
+    width: 100%;
+}
+
+.cc-comments .logged-in-as {
+    margin-bottom: 20px;
+}

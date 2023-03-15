@@ -1,0 +1,1 @@
+importScripts("https://unpkg.com/prettier/standalone.js"),importScripts("https://unpkg.com/prettier/parser-postcss.js"),self.onmessage=t=>{!async function(t){let s;await async function(){s=prettier.format(t.data,{plugins:prettierPlugins,parser:"css"})}(),postMessage(s)}(t)};

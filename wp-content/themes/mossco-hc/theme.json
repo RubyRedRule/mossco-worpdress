@@ -1,0 +1,107 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "styles": {
+    "color": {
+			"text": "var(--wp--preset--color--text-gray-200)"
+		},
+    "typography": {
+      "fontSize": "var(--wp--preset--font-size--medium)",
+      "fontFamily": "var(--wp--preset-font-family--montserrat-font)"
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "text": "#FFFFFF",
+          "background": "var(--wp--preset--color--primary-normal)"
+        }
+      }
+    }
+  },
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug":"Mossco-teal-dark",
+          "color": "#3f7078",
+          "name": "Dark Teal"
+        },
+        {
+          "slug":"primary-NORMAL",
+          "color": "#60AAA9",
+          "name": "Teal PRIMARY"
+        },
+        {
+          "slug":"Mossco-teal-light",
+          "color": "#a3cdcf",
+          "name": "Light Teal"
+        },
+        {
+          "slug":"Mossco-teal-faint",
+          "color": "#bedbd9",
+          "name": "Faint Teal"
+        },
+        {
+          "slug":"Mossco-grey-background",
+          "color": "#212121",
+          "name": "Grey BACKGROUND"
+        },
+        {
+          "slug":"Mossco-grey-dark",
+          "color": "#3e3f44",
+          "name": "Dark Grey"
+        },
+        {
+          "slug":"Mossco-grey-medium",
+          "color": "#85878b",
+          "name": "Medium Grey"
+        },
+        {
+          "slug":"Mossco-grey-semi",
+          "color": " #c3c3c3",
+          "name": "Semi Grey"
+        },
+        {
+          "slug":"text-gray-200",
+          "color": " #E5E7EB",
+          "name": "TEXT colour"
+        }
+      ],
+      "fontFamilies": [
+				{
+					"fontFamily": "\"Bauhaus\", serif",
+					"name": "bauhaus",
+					"slug": "bauhaus-font",
+					"fontFace": [
+						{
+							"fontFamily": "Bauhaus",
+							"fontWeight": "400 500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/bauhaus_lightregular-webfont.woff2", "file:./assets/fonts/bauhaus_light-webfont.woff2"
+            ]  
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Montserrat\",-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+					"name": "Montserrat",
+					"slug": "montserrat-font",
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "500 700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v25-latin-500.woff2"
+            ]
+						}
+					]
+				}
+			]
+    },
+    "layout": {
+      "contentSize": "840px"
+    }
+  }
+}

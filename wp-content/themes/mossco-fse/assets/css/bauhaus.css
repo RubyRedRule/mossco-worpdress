@@ -1,0 +1,41 @@
+/*! D Nic of TIFCO GROUP */
+
+/* Bauhaus Light */
+@font-face {
+    font-family: 'Bauhaus';
+    font-style: normal;
+    font-weight: 400;
+    src:  local(''),
+        url('../fonts/bauhaus_light-webfont.woff2') format('woff2'),
+        url('../fonts/bauhaus_light-webfont.woff') format('woff');
+}
+
+/* Bauhaus Regular */
+@font-face {
+    font-family: 'Bauhaus';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/bauhaus_lightregular-webfont.woff2') format('woff2'),
+        url('../fonts/bauhaus_lightregular-webfont.woff') format('woff');
+}
+
+/* Bauhaus Medium */
+@font-face {
+    font-family: 'Bauhaus';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/bauhaus_medium-webfont.woff2') format('woff2'),
+        url('../fonts/bauhaus_medium-webfont.woff') format('woff');
+}
+
+/* Bauhaus Bold */
+@font-face {
+    font-family: 'Bauhaus';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/bauhaus_demi-webfont.woff2') format('woff2'),
+        url('../fonts/bauhaus_demi-webfont.woff') format('woff');
+}

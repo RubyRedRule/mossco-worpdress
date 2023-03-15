@@ -1,0 +1,76 @@
+// MENUS FONT STYLING
+
+#cafe-banner, #day-banner, #evening-banner {
+
+    h1 {
+        font-family: 'Bauhaus';
+    }
+}
+
+#download-menu {
+    a {
+        font-family: 'Bauhaus';
+    }
+}
+
+.mossco-header {
+    a {
+        font-family: 'Bauhaus';
+    }
+}
+
+#mossco-menu-col {
+    h1 {
+        font-family: 'Bauhaus';
+    }
+
+    h1,
+    h3 {
+        font-family: 'Bauhaus';
+        text-transform: uppercase;
+        color: $teal-primary;
+
+        // color: var(--text-primary-NORMAL);
+    }
+
+    h4 {
+        font-family: 'Bauhaus';
+        text-transform: uppercase;
+        color: $grey-semi;
+    }
+
+    dt {
+        font-family: 'Bauhaus';
+        text-transform: uppercase;
+        padding: 0rem 0rem 0.25rem;
+        color: $teal-light;
+
+        // color: var(--text-primary-NORMAL);
+    }
+
+    .allergen_info {
+        font-size: 12px;
+        letter-spacing: 0.2em;
+        font-weight: 500;
+        color: $teal-faint;
+    }
+
+    .price {
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        padding-top: 12px;
+        color: $teal-faint;
+        font-weight: 500;
+        padding-bottom: 2rem;
+    }
+
+    p, dd {
+        font-family: 'Montserrat';
+        font-size: 16px;
+    }
+}
+
+
+
+
+

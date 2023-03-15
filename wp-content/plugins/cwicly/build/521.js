@@ -1,0 +1,1 @@
+importScripts("https://unpkg.com/prettier/standalone.js"),importScripts("https://unpkg.com/@prettier/plugin-php/standalone.js"),self.onmessage=t=>{!async function(t){let p;await async function(){p=prettier.format(t.data,{plugins:prettierPlugins,parser:"php"})}(),postMessage(p)}(t)};

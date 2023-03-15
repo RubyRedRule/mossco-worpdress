@@ -1,0 +1,94 @@
+/* Background colour */
+body.login {
+  background-color: #212121;
+}
+
+/* Custom logo */
+body.login div#login h1 a {
+  background-image: url("assets/images/logo-white-teal.svg");
+  height:65px;
+  width:320px;
+  background-size: 320px 65px;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+
+body.login div#login form#loginform,
+.login form#lostpasswordform {
+  background-color: #3e3f446b;
+  border-radius: 0.25rem;
+  border: 1px solid #3f707878;
+}
+
+body.login div#login form#loginform {
+  /* font-family: 'Bauhaus'; */
+  color: #ffffff;
+}
+
+/* Text colour */
+body.login div#login p#nav a,
+body.login div#login p#backtoblog a,
+body.login form#lostpasswordform label {
+    color: #bedbd9; 
+}
+
+body.login div#login form#loginform input,
+body.login form .input {
+  background-color: #212121a3;
+  background: #212121a3;
+  color: #bedbd9;
+}
+
+body.login form .input:focus {
+  border-color: #60aaa9;
+  box-shadow: 0 0 0 1px #60aaa9;
+  outline: 2px solid transparent;
+}
+
+/* Forgot password */
+body.login .message {
+  background-color: #2c3338;
+  border-left: 4px solid #60aaa9;
+  color: #bedbd9;
+}
+
+body.login #login_error {
+  background-color: #2c3338;
+  color: #bedbd9;
+}
+
+body.login div#login form#loginform input#user_login,
+body.login div#login form#loginform input#user_pass,
+body.login div#login form#loginform p.forgetmenot {
+  color:  #bedbd9;
+}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+  background-color: #3e3f446b;
+  border-radius: 0.25rem;
+  border: 1px solid #3f707878;
+}
+
+body.login div#login p#nav a {
+  color:  #60aaa9;
+}
+
+/* Submit button */
+body.login div#login form#loginform p.submit {
+  background-color:  #60aaa9;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit,
+.wp-core-ui #wp-submit  {
+  background-color:  #60aaa9;
+  border: 1px solid #60aaa9;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+  background-color: #83cdd1;
+}
+
+/* Icons */
+body.login .dashicons-visibility:before {
+  color: #60aaa9;
+}

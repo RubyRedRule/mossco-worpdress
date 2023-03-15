@@ -1,0 +1,76 @@
+/* Background images  */
+
+.cafe-menu-img {
+    background-image: url(../images/home/menus/cafe-menu-box-v2-min.jpg);
+    background-blend-mode: multiply;
+    border-radius: 0.125rem;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.day-menu-img {
+    background: linear-gradient(0deg, rgba(6, 12, 12, 0.7), rgba(63, 63, 68, 0.7)), url('../images/home/menus/day-menu-box-v2-min.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.evening-menu-img {
+    background: linear-gradient(0deg, rgba(33, 33, 33, 0.7), rgba(63, 63, 68, 0.7)), url('../images/home/menus/evening-menu-box-v2-min.jpg');
+    background-blend-mode: multiply;
+    border-radius: 0.125rem;
+    background-size: cover;
+}
+
+@media (min-width:64em) {
+    /* #home-newsletter {
+        background-image: url('/assets/images/graphics/seaweed-graphic.svg');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 150px;
+        width: 150px;
+    } */
+    
+    .footer-bg {
+        background-image: url('../images/graphics/3-trees-graphic.svg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 200px;
+    }
+}
+
+@media (min-width:48em) {
+    .newsletter-bg {
+        background-image: url('../images/graphics/seaweed-graphic-f.svg');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: contain;
+        opacity: 0.8;
+    }
+}
+
+.our-brand-bg {
+    background-image: url('../images/graphics/camel-graphic-fop.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+@media (min-width:48em) {
+    /* .menus-bg {
+        background-image: url('../images/graphics/edge-splat-graphic-f.svg');
+        background-repeat: no-repeat;
+        background-position: left top;
+    } */
+}
+
+@media (max-width:39.9375em) {
+    .maps-bg {
+    }
+}
+
+.smooth-scrolling {
+    scroll-behavior: smooth;
+}
+
+
+

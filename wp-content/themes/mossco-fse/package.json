@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.31",
+    "daisyui": "^2.49.0"
+  }
+}

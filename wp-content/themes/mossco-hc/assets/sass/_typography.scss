@@ -1,0 +1,41 @@
+// MENUS FONT STYLING
+#mossco-menu-col {
+    h1 {
+        font-family: 'Bauhaus';
+    }
+
+    h3 {
+        font-family: 'Bauhaus';
+        text-transform: uppercase;
+    }
+
+    dt {
+        font-family: 'Bauhaus';
+        text-transform: uppercase;
+        padding: 0rem 0rem 0.25rem;
+        color: #a3cdcf;
+
+        // color: var(--text-primary-NORMAL);
+    }
+
+    .allergen_info {
+        font-size: 12px;
+        letter-spacing: 0.2em;
+        font-weight: 500;
+        color: #bedbd9;
+    }
+
+    .price {
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        padding-top: 12px;
+        color: #bedbd9;
+        font-weight: 500;
+        padding-bottom: 2rem;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,60 @@
+.hero-poster,
+.editor-styles-wrapper {
+    background-image: url('assets/images/hero/bean-sasta-1920px-min.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(33, 33, 33, 0.56)!important;
+    width: 100%;
+    height: 85vh;
+}
+
+.hero-heading {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width:48em) and (max-width:63.9375em) {
+    .hero-poster,
+    .hero-poster:before {
+        height: 55vh;
+    }
+
+    .hero-heading {
+        top: 60%;
+    }
+}
+
+@media (max-width:47.9375em) {
+    .hero-poster {
+        background-image: url('assets/images/hero/bean-sasta-850px-min.jpg');
+        box-shadow: inset 0 0 0 2000px rgba(33, 33, 33, 0.56);
+        background-position: center top;
+        height: 65vh;
+    }
+
+    .hero-heading {
+        top: 60%;
+    }
+}
+
+.editor-styles-wrapper .hero-poster {
+    margin-top: 0rem!important;
+}
+
+.our-brand-img-grid {
+}
+
+.mossco-bar-grid {
+}
+
+.false-header {
+}
+
+.mossco-header {
+}
+
+

@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body-overlay {
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+@media (max-width:1023px) {
+    .mossco-logo {
+        // margin: 0 auto 0 0;
+        // width: 200px;
+    }
+}
+
+@media (max-width:639px) {
+    .nav-btn-tablet-mobile {
+        display: none;
+    }
+}
+
+@media (min-width:64em) {
+    .nav-btn-tablet-mobile {
+        display: none;
+    }
+}
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}

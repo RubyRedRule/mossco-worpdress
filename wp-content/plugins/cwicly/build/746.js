@@ -1,0 +1,1 @@
+importScripts("https://unpkg.com/prettier/standalone.js"),importScripts("https://unpkg.com/prettier/parser-babel.js"),self.onmessage=t=>{!async function(t){let e;await async function(){e=prettier.format(t.data,{plugins:prettierPlugins,parser:"babel"})}(),postMessage(e)}(t)};
